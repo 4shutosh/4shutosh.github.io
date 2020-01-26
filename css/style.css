@@ -29,7 +29,7 @@ a {
 }
 
 a:hover {
-  color: #B22222;
+  color: #228b22;
   text-decoration: none;
   transition: all 0.5s ease-in-out;
 }
@@ -39,7 +39,7 @@ a:hover {
 }
 
 .color-a {
-  color: #B22222;
+  color: #228b22;
 }
 
 .color-d {
@@ -90,7 +90,7 @@ a:hover {
 }
 
 .overlay-mf {
-  background-color: #B22222;
+  background-color: #87ceeb;
 }
 
 .overlay-mf {
@@ -160,7 +160,7 @@ a:hover {
 .line-mf {
   width: 40px;
   height: 5px;
-  background-color: #B22222;
+  background-color: #228b22;
   margin: 0 auto;
 }
 
@@ -179,7 +179,7 @@ a:hover {
   content: '';
   position: absolute;
   height: 3px;
-  background-color: ##B22222;
+  background-color: #228b22;
   width: 100px;
   bottom: -12px;
 }
@@ -193,6 +193,7 @@ a:hover {
 .box-shadow-full {
   padding: 3rem 1.25rem;
   position: relative;
+  width: auto;
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
@@ -216,12 +217,12 @@ a:hover {
   border-radius: 50%;
   line-height: 1.4;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #B22222;
+  box-shadow: 0 0 0 3px #228b22;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
-  background-color: #B22222;
+  background-color: #228b22;
   color: #fff;
   box-shadow: 0 0 0 3px #cde1f8;
   transition: all 500ms ease;
@@ -260,7 +261,7 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #B22222;
+  box-shadow: 0 0 0 10px #228b22;
   display: block;
 }
 
@@ -307,7 +308,7 @@ a:hover {
   position: fixed;
   width: 42px;
   height: 42px;
-  background-color: #B22222;
+  background-color: #228b22;
   opacity: .7;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -326,7 +327,7 @@ a:hover {
 .back-to-top {
   position: fixed;
   display: none;
-  background: #B22222;
+  background: #228b22;
   color: #fff;
   width: 44px;
   height: 44px;
@@ -364,7 +365,7 @@ a:hover {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   border: 6px solid #f2f2f2;
-  border-top: 6px solid #B22222;
+  border-top: 6px solid #228b22;
   border-radius: 50%;
   width: 60px;
   height: 60px;
@@ -481,26 +482,26 @@ a:hover {
 }
 
 .navbar-b.navbar-reduce .nav-link {
-  color: #B22222;
+  color: #228b22;
 }
 
 .navbar-b.navbar-reduce .nav-link:before {
-  background-color: #B22222;
+  background-color: #228b22;
 }
 
 .navbar-b.navbar-reduce .nav-link:hover {
-  color: #B22222;
+  color: #228b22;
 }
 
 .navbar-b.navbar-reduce .show>.nav-link,
 .navbar-b.navbar-reduce .active>.nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
 .navbar-b.navbar-reduce .nav-link.active {
-  color: #B22222;
+  color: #228b22;
 }
 
 .navbar-b.navbar-reduce .navbar-brand {
-  color: #B22222;
+  color: #228b22;
 }
 
 .navbar-b.navbar-reduce .navbar-toggler span {
@@ -532,13 +533,13 @@ a:hover {
 }
 
 .navbar-b .dropdown-menu .dropdown-item:hover {
-  background-color: #B22222;
+  background-color: #228b22;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .navbar-b .dropdown-menu .dropdown-item.active {
-  background-color: #B22222;
+  background-color: #228b22;
 }
 
 /*--/ Hamburger Navbar /--*/
@@ -652,7 +653,7 @@ a:hover {
 
 .intro-single .breadcrumb {
   background-color: transparent;
-  color: #B22222;
+  color: #228b22;
 }
 
 .intro-single .breadcrumb .breadcrumb-item:before {
@@ -697,7 +698,7 @@ a:hover {
 
 .skill-mf .progress .progress-bar {
   height: .7rem;
-  background-color: #B22222;
+  background-color: #228b22;
 }
 
 /*======================================
@@ -714,7 +715,7 @@ a:hover {
 .service-box:hover .ico-circle {
   transition: all 500ms ease;
   color: #fff;
-  background-color: #B22222;
+  background-color: #228b22;
   box-shadow: 0 0 0 10px #cde1f8;
 }
 
@@ -799,17 +800,17 @@ a:hover {
 }
 
 .work-content .w-more .w-ctegory {
-  color: #B22222;
+  color: #228b22;
 }
 
 .work-content .w-like {
   font-size: 2.5rem;
-  color: #B22222;
+  color: #228b22;
   float: right;
 }
 
 .work-content .w-like a {
-  color: #B22222;
+  color: #228b22;
 }
 
 .work-content .w-like .num-like {
@@ -852,7 +853,7 @@ a:hover {
 
 .testimonial-box .comit {
   font-size: 2rem;
-  color: #B22222;
+  color: #87ceeb;
   background-color: #fff;
   width: 52px;
   height: 52px;
@@ -885,7 +886,7 @@ a:hover {
   color: #fff;
   padding: 0 15px 5px;
   overflow: hidden;
-  background-color: #B22222;
+  background-color: #228b22;
   border-radius: 4px;
 }
 
@@ -939,7 +940,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul {
-  border-left: 4px solid #B22222;
+  border-left: 4px solid #228b22;
   margin-top: 1rem;
 }
 
@@ -949,7 +950,7 @@ a:hover {
 }
 
 .blog-wrapper .post-meta ul a {
-  color: #B22222;
+  color: #228b22;
 }
 
 .blog-wrapper .post-meta ul span {
@@ -957,7 +958,7 @@ a:hover {
 }
 
 .blog-wrapper .blockquote {
-  border-left: 4px solid #B22222;
+  border-left: 4px solid #228b22;
   padding: 18px;
   font-style: italic;
 }
@@ -989,7 +990,7 @@ a:hover {
 }
 
 .box-comments .list-comments a {
-  color: #B22222;
+  color: #228b22;
 }
 
 .box-comments .list-comments span {
@@ -1006,7 +1007,7 @@ a:hover {
 .widget-sidebar .sidebar-title {
   font-size: 1.6rem;
   font-weight: 600;
-  border-left: 5px solid #B22222;
+  border-left: 5px solid #228b22;
   padding-left: 15px;
   text-transform: uppercase;
   margin-bottom: 1.5rem;
@@ -1023,7 +1024,7 @@ a:hover {
   width: 10px;
   height: 1px;
   left: 0;
-  background-color: #B22222;
+  background-color: #228b22;
   top: 20px;
 }
 
@@ -1034,8 +1035,8 @@ a:hover {
 }
 
 .sidebar-search .btn-search {
-  background-color: #B22222;
-  border-color: #B22222;
+  background-color: #228b22;
+  border-color: #228b22;
   border-radius: 0;
   padding-left: 20px;
   padding-right: 20px;
@@ -1043,7 +1044,7 @@ a:hover {
 
 .widget-tags ul li {
   display: inline-block;
-  background-color: #B22222;
+  background-color: #228b22;
   padding: .2rem .6rem;
   margin-bottom: .5rem;
   border-radius: 15px;
@@ -1092,8 +1093,8 @@ footer .credits a {
 ======================================*/
 
 #sendmessage {
-  color: #B22222;
-  border: 1px solid #B22222;
+  color: #228b22;
+  border: 1px solid #228b22;
   display: none;
   text-align: center;
   padding: 15px;
@@ -1150,13 +1151,13 @@ footer .credits a {
 }
 
 .button:hover {
-  background-color: #B22222;
+  background-color: #228b22;
   color: #fff;
   transition: all 500ms ease;
 }
 
 .button-a {
-  background-color: #B22222;
+  background-color: #228b22;
   color: #fff;
   border-color: #cde1f8;
 }
@@ -1315,7 +1316,7 @@ footer .credits a {
   left: 0;
   right: 0;
   margin: 0 auto;
-  background: #B22222
+  background: #228b22
 }
 
 .timeline {
