@@ -1,6 +1,7 @@
 {
   "name": "tokyo",
   "version": "1.0.0",
+  "homepage":"https://github.com/4shutosh/4shutosh.github.io",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
@@ -23,6 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy":"npm run build",
+    "deploy":"npm -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
