@@ -19,7 +19,7 @@ const About = () => {
             <div className="left">
               <p>
                 Hello, I am a software developer by profession. I love to build stuff. If not
-                around computers I'll be playing football, high on music or lifting some heavy ass weights.
+                around computers I'll be playing football, engrossed in music or lifting some dead heavy weights.
               </p>
               {/* <div className="tokyo_tm_button">
                 <button onClick={toggleModal} className="ib-button">
@@ -81,17 +81,18 @@ const About = () => {
               </div>
               <ExpItem
                 year='Present'
-                title='BlackBoard Radio : Curieo Tech'
-                body='Android Developer'
-              />
-              <ExpItem
-                year='Present'
                 title='Open Source Developer'
                 body='Kiwix, DuckDuckGO, TapTap and other'
               />
               <ExpItem
+                year='2021'
+                title='BlackBoard Radio: Curieo Tech'
+                body='Android Developer'
+              />
+              <ExpItem
                 year='2020'
                 title='Freelance Android & Web Developer'
+                body='International Freelance Software Developer'
               />
               <ExpItem
                 year='2020'
