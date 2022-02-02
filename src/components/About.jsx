@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import Modal from "react-modal";
-import Brand from "./Brand";
-import ExpItem from "./ExpItem"
+import ExpItem from "./ExpItem";
 
 Modal.setAppElement("#root");
 
@@ -47,9 +46,14 @@ const About = () => {
                   </p>
                 </li>
                 <li>
-                  <p>
+                  <p >
                     <span>Email:</span>
-                    <a href="mailto:4shutoshsingh@gmail.com" target="_blank">4shutoshsingh@gmail.com</a>
+                    <a href="mailto:4shutoshsingh@gmail.com" target="_blank">
+                      Email Me!
+                    </a>
+                    {/* <a
+                      href="mailto:4shutoshsingh@gmail.com" target="_blank"
+                      onMouseOver={() => null}>4shutoshsingh@gmail.com</a> */}
                   </p>
                 </li>
                 {/* <li>
@@ -65,7 +69,7 @@ const About = () => {
                 </li> */}
                 <li>
                   <p>
-                    <span>Freelance:</span>Available
+                    <span>Freelance:</span>Not Available
                   </p>
                 </li>
               </ul>
