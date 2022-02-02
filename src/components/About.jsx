@@ -81,6 +81,11 @@ const About = () => {
               </div>
               <ExpItem
                 year='Present'
+                title='TickerTape'
+                body='Android Developer'
+              />
+              <ExpItem
+                year='2021'
                 title='Open Source Developer'
                 body='Kiwix, DuckDuckGO, TapTap and other'
               />
