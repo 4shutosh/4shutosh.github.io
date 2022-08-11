@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../app.css';
+	import '../tailwind.css';
 	import Nav from '../components/Nav.svelte';
 </script>
 
