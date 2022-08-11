@@ -1,6 +1,8 @@
 import adapter from "@sveltejs/adapter-static";
 import preprocess from "svelte-preprocess";
 
+const dev = "production" === "development";
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
   preprocess: [
@@ -10,14 +12,14 @@ const config = {
   ],
   kit: {
     adapter: adapter({
-      pages: "build",
-      assets: "build",
-      fallback: 'foo.html',
+      pages: "docs",
+      assets: "docs",
+      fallback: "foo.html",
     }),
     paths: {
-      // base: dev ? """: "/4shutosh.github.io",
+      // change below to your repo name
+      // base: dev ? "" : "/",
     },
-    // target: "#svelte"
   },
 };
 
