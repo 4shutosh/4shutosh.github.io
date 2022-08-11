@@ -12,10 +12,12 @@ const config = {
   ],
   kit: {
     adapter: adapter({
-      pages: "docs",
-      assets: "docs",
-      fallback: "foo.html",
+      pages: "build",
+      assets: "build",
     }),
+    prerender: {
+      default: true,
+    },
     paths: {
       // change below to your repo name
       // base: dev ? "" : "/",

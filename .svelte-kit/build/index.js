@@ -49,7 +49,7 @@ export class Server {
 			paths: { base, assets },
 			prefix: assets + '/',
 			prerender: {
-				default: false,
+				default: true,
 				enabled: true
 			},
 			public_env: {},
