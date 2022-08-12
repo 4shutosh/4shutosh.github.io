@@ -11,7 +11,7 @@
 		"test": "playwright test",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"deploy": "npm run build && npx gh-pages -d build"
+		"deploy": "npm run build && npx gh-pages -d build -t true"
 	},
 	"devDependencies": {
 		"@playwright/test": "^1.22.2",
