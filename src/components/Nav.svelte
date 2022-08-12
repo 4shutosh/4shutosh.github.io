@@ -8,7 +8,7 @@
 			localStorage.theme === 'dark' ||
 			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
 		) {
-			isDark = true;
+			isDark = false;
 		}
 	}
 	function toggleDarkMode() {

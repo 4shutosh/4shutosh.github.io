@@ -17,7 +17,7 @@
 			>
 				Ashutosh Singh
 			</h1>
-			<p class="text-lg sm:text-2xl font-regular font-catamaran text-gray-800 dark:text-gray-400">
+			<p class="text-lg mt-2 sm:text-2xl font-regular font-catamaran text-gray-800 dark:text-gray-400">
 				Passionately Curious -- Tech, Finance, Psychology, Sports
 			</p>
 			<div class="flex mt-5 flex-row items-start justify-start">
