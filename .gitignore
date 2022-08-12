@@ -41,6 +41,8 @@ build/Release
 # Dependency directories
 /.svelte-kit
 node_modules/
+build/
+docs/
 jspm_packages/
 /public/build/
 
