@@ -41,7 +41,7 @@
     class="mt-8 w-full sm:w-2/5 font-catamaran font-regular text-gray-800 dark:text-gray-300"
   >
     <p class="text-justify text-lg">
-      Hola. I am a software engineer by profession -- <b>Android Engineer</b>.
+      Hola! I am a software engineer by profession -- <b>Android Engineer</b>.
     </p>
 
     <p class="text-justify text-lg">
@@ -54,20 +54,22 @@
     <p class="mt-4 text-justify text-lg">
       I’ve worked for multiple small scale businesses to help them grow with the
       help of software technology. Free and Open Source Software always piques
-      my curiosity, and I try to contribute as much as I can. Previously, I
-      worked in the peak EdTech sector. Now I work for <a
+      my curiosity, and I try to contribute as much as I can. Following that, I
+      led the development of personal finance and investment analysis tools and
+      the creation of a social media platform for investors at <a
         class="underline text-blue-700 dark:text-blue-400"
         href="https://www.tickertape.in/"
         target="_blank">Tickertape</a
-      > as an Android engineer in the fintech space.
+      > in the fintech sector.
     </p>
 
     <p class="mt-4 text-justify text-lg">
-      The other aspects I’m most interested in are <b>Finance</b> and
-      <b>Human Psychology</b>.
-      <br />Both of them intrigue me and I try to study about them constantly.
-      As of now combined tech, finance, and human psychology is the ideal career
-      path for me.
+      At the present time, I contribute to <a
+        class="underline text-blue-700 dark:text-blue-400"
+        href="https://www.jiocinema.com/"
+        target="_blank">JioCinema</a
+      > one of India's premier OTT platforms. Primarily towards the development and
+      enhancement of the Android Application.
     </p>
 
     <p class="mt-4 text-justify text-lg">
