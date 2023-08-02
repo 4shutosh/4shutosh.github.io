@@ -32,6 +32,10 @@
 	<meta name="twitter:title" content={SITE_TITLE} />
 	<meta name="twitter:description" content={SITE_DESCRIPTION} />
 	<meta name="twitter:image" content={DEFAULT_OG_IMAGE} />
+
+	<script
+		src="https://identity.netlify.com/v1/netlify-identity-widget.js"
+	></script>
 </svelte:head>
 
 <div class="flex flex-col items-center justify-center">
