@@ -33,7 +33,7 @@
 <h1
 	class="text-4xl font-catamaran text-semibold mt-16 text-gray-800 dark:text-gray-200 mb-10"
 >
-	Writtings
+	Writings
 </h1>
 
 <section class="w-full sm:w-2/5 font-catamaran text-gray-800 dark:text-gray-300">
