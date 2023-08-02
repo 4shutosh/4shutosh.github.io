@@ -69,7 +69,6 @@
 			>
 				<a
 					class="flex w-auto pb-4"
-					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/">home</a
 				>
@@ -80,7 +79,6 @@
 			>
 				<a
 					class="flex w-auto pb-4"
-					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/about">about</a
 				>
@@ -91,7 +89,6 @@
 			>
 				<a
 					class="flex w-auto pb-4"
-					sveltekit:prefetch
 					on:click={() => setTimeout(() => (isOpen = false), 300)}
 					href="/blog">blog</a
 				>

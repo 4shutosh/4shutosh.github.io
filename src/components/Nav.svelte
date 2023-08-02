@@ -1,28 +1,33 @@
 <script>
-	import MobileMenu from './MobileMenu.svelte';
-	import { REPO_URL } from '../lib/siteConfig';
-	import NavLink from './NavLink.svelte';
+	import MobileMenu from "./MobileMenu.svelte";
+	import { REPO_URL } from "../lib/siteConfig";
+	import NavLink from "./NavLink.svelte";
 	let isDark = false;
-	if (typeof localStorage !== 'undefined') {
-		if (
-			localStorage.theme === 'dark' ||
-			(!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)
-		) {
-			isDark = false;
-		}
-	}
+
 	function toggleDarkMode() {
 		if (isDark) {
-			document.documentElement.classList.remove('dark');
-			localStorage.theme = 'light';
+			document.documentElement.classList.remove("dark");
+			document.documentElement.classList.add("light");
+			localStorage.setItem("theme", "light"); // Store the theme preference in localStorage
 			isDark = false;
 		} else {
-			document.documentElement.classList.add('dark');
-			localStorage.theme = 'dark';
+			document.documentElement.classList.add("dark");
+			document.documentElement.classList.remove("light");
+			localStorage.setItem("theme", "dark"); // Store the theme preference in localStorage
 			isDark = true;
 		}
 	}
 </script>
+
+<svelte:head>
+	<script>
+		if (typeof localStorage !== "undefined") {
+			if (localStorage.getItem("theme") === "dark") {
+				document.documentElement.classList.add("dark");
+			}
+		}
+	</script>
+</svelte:head>
 
 <nav
 	class="relative flex w-full items-end justify-end border-gray-200

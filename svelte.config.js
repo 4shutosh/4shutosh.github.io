@@ -1,29 +1,27 @@
 import adapter from "@sveltejs/adapter-static";
+import { vitePreprocess } from "@sveltejs/kit/vite";
 import preprocess from "svelte-preprocess";
 
 const dev = "production" === "development";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-  preprocess: [
-    preprocess({
-      postcss: true,
-    }),
-  ],
-  kit: {
-    adapter: adapter({
-      pages: "build",
-      assets: "build",
-      fallback: null
-    }),
-    prerender: {
-      default: true,
-    },
-    paths: {
-      // change below to your repo name
-      // base: dev ? "" : "/",
-    },
-  },
+	kit: {
+		adapter: adapter({
+			// default options are shown. On some platforms
+			// these options are set automatically — see below
+			pages: "build",
+			assets: "build",
+			fallback: undefined,
+			precompress: false,
+			strict: true,
+		}),
+	},
+	preprocess: [
+		preprocess({
+			postcss: true,
+		}),
+	],
 };
 
 export default config;
