@@ -2,7 +2,9 @@
 	import MobileMenu from "./MobileMenu.svelte";
 	import { REPO_URL } from "../lib/siteConfig";
 	import NavLink from "./NavLink.svelte";
-	let isDark = false;
+	let isDark =
+		typeof localStorage !== "undefined" &&
+		localStorage.getItem("theme") === "dark";
 
 	function toggleDarkMode() {
 		if (isDark) {
