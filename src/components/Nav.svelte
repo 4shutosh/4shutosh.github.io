@@ -47,7 +47,7 @@
 			<NavLink href="/about">about</NavLink>
 		</li>
 		<li>
-			<NavLink href="/blog">blog</NavLink>
+			<NavLink href="/writings">writings</NavLink>
 		</li>
 	</ul>
 	<div class="flex items-center space-x-4">

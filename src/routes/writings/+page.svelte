@@ -10,7 +10,7 @@
 </script>
 
 <svelte:head>
-	<title>Blog - {SITE_TITLE}</title>
+	<title>Writings - {SITE_TITLE}</title>
 	<link rel="canonical" href={SITE_URL} />
 	<link
 		rel="alternate"
