@@ -33,8 +33,8 @@
 
 <nav
 	class="relative flex w-full items-end justify-end border-gray-200
-	mx-4 sm:mx-8
-	bg-gray-50 bg-opacity-60 py-1 sm:py-2 text-gray-900 font-catamaran dark:bg-gray-900"
+	mx-4
+	bg-colorSurface bg-opacity-60 py-1 sm:py-2 text-colorOnSurface font-catamaran dark:bg-colorSurfaceDark"
 >
 	<!-- <a href="#skip" class="skip-nav">Skip to content</a> -->
 	<div class="flex flex-col w-full items-start ml-1">
@@ -78,8 +78,8 @@
 		<!-- </a> -->
 		<button
 			aria-label="Toggle Dark Mode"
-			class="sm:ml-12 flex h-9 w-9 items-center justify-center rounded-lg bg-gray-200 ring-gray-800
-			transition-all hover:ring-2 dark:bg-gray-800 dark:ring-yellow-100"
+			class="sm:ml-12 flex h-9 w-9 items-center justify-center rounded-lg bg-colorSurface ring-colorOnSurface
+			transition-all hover:ring-2 dark:bg-colorSurfaceDark dark:ring-colorOnSurfaceDark"
 			on:click={toggleDarkMode}
 		>
 			{#if isDark}

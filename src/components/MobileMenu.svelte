@@ -60,11 +60,11 @@
 	</button>
 	{#if isOpen}
 		<ul
-			class="menu absolute flex flex-col bg-gray-50 text-2xl lowercase dark:bg-gray-900"
+			class="menu absolute flex flex-col bg-colorSurface text-2xl lowercase dark:bg-colorSurfaceDark text-colorOnSurface dark:text-colorOnSurfaceDark"
 			class:menuRendered={isMenuRendered}
 		>
 			<li
-				class="border-b border-gray-300 text-gray-800 dark:border-gray-700 dark:text-gray-200"
+				class="border-b border-gray-300 k dark:border-gray-700 "
 				style="transition-delay: 150ms;"
 			>
 				<a
@@ -74,7 +74,7 @@
 				>
 			</li>
 			<li
-				class="border-b border-gray-300 text-gray-800 dark:border-gray-700 dark:text-gray-200"
+				class="border-b border-gray-300 dark:border-gray-700"
 				style="transition-delay: 250ms;"
 			>
 				<a
@@ -84,7 +84,7 @@
 				>
 			</li>
 			<li
-				class="border-b border-gray-300 text-gray-800 dark:border-gray-700 dark:text-gray-200"
+				class="border-b border-gray-300 dark:border-gray-700"
 				style="transition-delay: 350ms;"
 			>
 				<a

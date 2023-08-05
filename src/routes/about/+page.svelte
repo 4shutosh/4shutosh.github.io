@@ -31,45 +31,47 @@
 </svelte:head>
 
 <h1
-	class="text-4xl font-catamaran text-semibold mt-16 text-gray-900 dark:text-gray-200 mb-10"
+	class="text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
 >
 	About Ashutosh
 </h1>
 
-<section class="w-full sm:w-2/5 font-catamaran text-gray-800 dark:text-gray-300">
-	<p class="text-justify text-lg">
+<section
+	class="w-full font-catamaran text-textBody dark:text-textBodyDark font-normal text-start text-xl"
+>
+	<p>
 		Hola! I am a software engineer by profession -- <b>Android Engineer</b>.
 	</p>
 
-	<p class="text-justify text-lg">
+	<p>
 		I was fortunate to be born in the era characterised by accelerated
-		technological development at the appropriate place to experience the rich
-		behavioural change. This induced a great amount of interest in tech and
-		specifically computer softwares.
+		technological development to experience the rich behavioural change. This
+		induced a great amount of interest in tech and specifically computer
+		softwares.
 	</p>
 
-	<p class="mt-4 text-justify text-lg">
+	<p class="mt-4">
 		I’ve worked for multiple small scale businesses to help them grow with the
 		help of software technology. Free and Open Source Software always piques my
 		curiosity, and I try to contribute as much as I can. Following that, I led
 		the development of personal finance and investment analysis tools and the
 		creation of a social media platform for investors at <a
-			class="underline text-blue-700 dark:text-blue-400"
+			class="underline"
 			href="https://www.tickertape.in/"
 			target="_blank">Tickertape</a
 		> in the fintech sector.
 	</p>
 
-	<p class="mt-4 text-justify text-lg">
+	<p class="mt-4">
 		At the present time, I contribute to <a
-			class="underline text-blue-700 dark:text-blue-400"
+			class="underline"
 			href="https://www.jiocinema.com/"
 			target="_blank">JioCinema</a
 		> one of India's premier OTT platforms. Primarily towards the development and
 		enhancement of the Android Application.
 	</p>
 
-	<p class="mt-4 text-justify text-lg">
+	<p class="mt-4">
 		More on my personal side of life: I like to take up challenges. And I
 		consistently try to push myself in all aspects of my life. I spend most of
 		my time building stuff, geeking around computers, listening to music,
@@ -79,17 +81,15 @@
 		injuries and incorporate healthy-lifestyle.
 	</p>
 
-	<p class="mt-4 text-justify text-lg mb-14">
+	<p class="mt-4 mb-14">
 		Exciting project / idea / general conversation? feel free to send a message: <a
-			class="underline text-blue-700 dark:text-blue-400"
+			class="underline"
 			href="https://twitter.com/messages/compose?recipient_id={704722666188505089}"
 			target="_blank">Twitter</a
 		>
 		or
-		<a
-			class="underline text-blue-700 dark:text-blue-400"
-			href="mailto: 4shutoshsingh@gmail.com"
-			target="_blank">Email</a
+		<a class="underline" href="mailto: 4shutoshsingh@gmail.com" target="_blank"
+			>Email</a
 		>
 		:)
 		<br />Happy to connect with you!

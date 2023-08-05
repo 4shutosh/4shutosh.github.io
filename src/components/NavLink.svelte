@@ -1,12 +1,16 @@
 <script>
-	import { page } from '$app/stores';
+	import { page } from "$app/stores";
 	$: isActive = $page.url.pathname === $$props.href;
 	export let href;
 </script>
 
-<a class="hidden rounded-lg p-1 text-gray-800 transition-all hover:bg-gray-200 sm:px-3 md:inline-block dark:text-gray-200
-	dark:hover:bg-gray-700"
+<a
+	class="hidden rounded-lg p-1 transition-all sm:px-3 md:inline-block
+	text-colorOnSurface dark:text-textBodyDark
+	hover:text-colorSurface dark:hover:text-colorSurfaceDark
+	hover:bg-colorOnSurface dark:hover:bg-colorOnSurfaceDark"
 	class:font-regular={isActive}
-	{href}>
-    <span class="capsize"><slot /> </span>
+	{href}
+>
+	<span class="capsize"><slot /> </span>
 </a>

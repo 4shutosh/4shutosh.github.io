@@ -31,20 +31,23 @@
 </svelte:head>
 
 <h1
-	class="text-4xl font-catamaran text-semibold mt-16 text-gray-800 dark:text-gray-200 mb-10"
+	class="text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
 >
 	Writings
 </h1>
 
-<section class="w-full sm:w-2/5 font-catamaran text-gray-800 dark:text-gray-300">
-	<p class="text-justify text-lg">
-		I try to write my learnings, thoughts and experiences regularly.
-	</p>
+<section
+	class="w-full font-catamaran text-textBody dark:text-textBodyDark text-justify text-xl"
+>
+	<p>I try to write my learnings, thoughts and experiences regularly.</p>
 
-	<p class="mt-4 text-justify text-lg">
+	<br>
+	<p>
 		Starting soon, I will share them on Twitter in a condensed manner as well as
 		write travel, tech, and other informative blogs here.
 	</p>
+	<br>
 
-	<p class=" mt-4 text-justify text-lg">Please check back in some time.</p>
+
+	<p>Please check back in some time.</p>
 </section>
