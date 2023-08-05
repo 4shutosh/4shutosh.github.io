@@ -37,7 +37,7 @@
 </h1>
 
 <section
-	class="w-full font-catamaran text-textBody dark:text-textBodyDark text-justify text-xl"
+	class="w-full font-catamaran text-textBody dark:text-textBodyDark text-start text-xl"
 >
 	<p>I try to write my learnings, thoughts and experiences regularly.</p>
 

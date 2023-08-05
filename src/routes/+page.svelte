@@ -41,14 +41,14 @@
 <div class="flex flex-col items-center justify-center">
 	<!-- <div class="grid grid-cols-8 p-0">
 		<div class="col-start-3 col-span-full flex flex-col"> -->
-	<div class="flex flex-col mx-6 lg:ml-44 justify-center">
+	<div class="flex flex-col mx-6 justify-items-start">
 		<h1
-			class="sm:text-5xl md:text-6xl lg:text-7xl font-semibold italic text-start font-catamaran text-colorOnSurface dark:text-colorOnSurfaceDark"
+			class="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-semibold italic text-start font-catamaran text-colorOnSurface dark:text-colorOnSurfaceDark"
 		>
 			Ashutosh Singh
 		</h1>
 		<p
-			class="text-lg mt-2 sm:text-2xl font-regular font-catamaran text-textBody dark:text-textBodyDark"
+			class="text-xl lg:text-2xl md:text-2xl sm:text-xl mt-2 font-regular font-catamaran text-textBody dark:text-textBodyDark"
 		>
 			Passionately Curious -- Tech, Finance, Psychology, Sports
 		</p>
