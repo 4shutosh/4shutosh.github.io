@@ -123,7 +123,7 @@ module.exports = {
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						pre: {
-							backgroundColor: theme("colors.colorOnSurfaceDark"),
+							backgroundColor: theme("colors.textBody"),
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						code: {
