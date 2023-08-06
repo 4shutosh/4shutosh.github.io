@@ -7,6 +7,13 @@
 		DEFAULT_OG_IMAGE,
 		MY_TWITTER_HANDLE,
 	} from "$lib/siteConfig";
+
+	import BlogLink from "../../components/BlogLink.svelte";
+
+	import { formatDateNumbers } from "../../utils/formatDate.js";
+
+	export let data;
+	const posts = data.posts;
 </script>
 
 <svelte:head>
@@ -40,14 +47,27 @@
 	class="w-full font-catamaran text-textBody dark:text-textBodyDark text-start text-xl"
 >
 	<p>I try to write my learnings, thoughts and experiences regularly.</p>
-
-	<br>
-	<p>
+	<!-- <p>
 		Starting soon, I will share them on Twitter in a condensed manner as well as
 		write travel, tech, and other informative blogs here.
-	</p>
-	<br>
-
-
-	<p>Please check back in some time.</p>
+	</p> -->
+	<br />
+	{#if !data}
+		<p>Nothing found :( Please check back in some time.</p>
+	{:else}
+		<div>
+			<ul>
+				{#each posts as post}
+					<li>
+						<span class="text-textBody dark:text-textBodyDark">
+							{formatDateNumbers(post.date)}
+						</span>
+						<span class="text-colorOnSurface dark:text-colorOnSurfaceDark underline underline-offset-2">
+							<BlogLink href="{post.path}"> {post.title}</BlogLink>
+						</span>
+					</li>
+				{/each}
+			</ul>
+		</div>
+	{/if}
 </section>

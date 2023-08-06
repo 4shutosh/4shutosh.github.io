@@ -37,7 +37,7 @@
 </h1>
 
 <section
-	class="w-full font-catamaran text-textBody dark:text-textBodyDark font-normal text-start text-xl"
+	class="w-full prose dark:prose-dark max-w-none sm:prose-xl font-catamaran text-start"
 >
 	<p>
 		Hola! I am a software engineer by profession -- <b>Android Engineer</b>.

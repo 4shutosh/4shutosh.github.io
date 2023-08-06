@@ -56,7 +56,7 @@ const Nav = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 						0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path></svg>` : `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" class="w-5 h-5 text-gray-800 dark:text-gray-200"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>`}</button></div></nav>`;
 });
 const Layout = create_ssr_component(($$result, $$props, $$bindings, slots) => {
-  return `<div class="flex flex-col w-screen min-h-screen bg-colorSurface dark:bg-colorSurfaceDark p-0 m-0 items-center"><div class="flex flex-row w-full sm:w-full md:w-4/5 lg:w-3/5">${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}</div> <main class="flex flex-grow w-full sm:w-full md:w-4/5 lg:w-3/5">${slots.default ? slots.default({}) : ``}</main></div>`;
+  return `<div class="flex flex-col w-screen min-h-screen bg-colorSurface dark:bg-colorSurfaceDark p-0 m-0 items-center"><div class="flex flex-row w-full sm:w-full md:w-4/5 lg:w-1/2">${validate_component(Nav, "Nav").$$render($$result, {}, {}, {})}</div> <main class="flex flex-grow w-full sm:w-full md:w-4/5 lg:w-7/12">${slots.default ? slots.default({}) : ``}</main></div>`;
 });
 export {
   Layout as default
