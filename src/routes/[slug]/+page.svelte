@@ -24,7 +24,7 @@
 
 <section class="font-catamaran">
 	<div
-		class="prose dark:prose-dark max-w-none sm:prose-xl tracking-normal leading-tight"
+		class="prose dark:prose-dark max-w-none sm:prose-xl tracking-normal leading-tight pb-20"
 	>
 		{@html post.content}
 	</div>
