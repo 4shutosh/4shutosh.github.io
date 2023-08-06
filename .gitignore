@@ -45,7 +45,6 @@ build/
 docs/
 jspm_packages/
 /public/build/
-/.netlify
 .netlify
 
 # TypeScript v1 declaration files
