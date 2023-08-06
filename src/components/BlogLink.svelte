@@ -6,7 +6,7 @@
 </script>
 
 <a
-	class="hidden sm:px-3 md:inline-block
+	class="px-3
 	text-colorOnSurface dark:text-colorOnSurfaceDark
 	hover:text-cyan-700 dark:hover:text-cyan-700"
 	class:font-regular={isActive}
