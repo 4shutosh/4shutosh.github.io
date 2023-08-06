@@ -80,7 +80,7 @@ module.exports = {
 							color: theme("colors.textBody"),
 						},
 						li: {
-							color: theme("colors.textBodyDark"),
+							color: theme("colors.textBody"),
 						},
 						strong: { color: theme("colors.colorOnSurface") },
 						blockquote: {
