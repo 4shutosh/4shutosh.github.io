@@ -38,7 +38,7 @@
 </svelte:head>
 
 <h1
-	class="text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
+	class="font-medium text-2xl md:text-4xl lg:text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
 >
 	Writings
 </h1>
@@ -62,8 +62,10 @@
 						<span class="text-textBody dark:text-textBodyDark">
 							{formatDateNumbers(post.date)}
 						</span>
-						<span class="text-colorOnSurface dark:text-colorOnSurfaceDark underline underline-offset-2">
-							<BlogLink href="{post.path}"> {post.title}</BlogLink>
+						<span
+							class="text-colorOnSurface dark:text-colorOnSurfaceDark underline underline-offset-2"
+						>
+							<BlogLink href={post.path}>{post.title}</BlogLink>
 						</span>
 					</li>
 				{/each}

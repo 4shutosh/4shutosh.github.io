@@ -10,13 +10,15 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1
-	class="flex flex-col text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
->
-	<p class="font-bold">{post.title}</p>
+<h1 class="flex flex-col font-catamaran mt-16 mb-10">
+	<p
+		class="font-medium text-2xl md:text-4xl lg:text-4xl text-colorOnSurface dark:text-colorOnSurfaceDark"
+	>
+		{post.title}
+	</p>
 	<!-- <p class="text-gray-500 text-xl">Ashutosh Singh/Writing</p> -->
-	<p>
-		<date class="text-xl text-textBody dark:text-textBodyDark"
+	<p class="text-sm sm:text-lg md:text-xl lg:text-xl">
+		<date class="text-textBody dark:text-textBodyDark"
 			>Ashutosh Singh • {formatDateText(post.date)}</date
 		>
 	</p>

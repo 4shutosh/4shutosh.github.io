@@ -31,7 +31,7 @@
 </svelte:head>
 
 <h1
-	class="text-4xl font-catamaran text-semibold mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-10"
+	class="font-medium text-2xl md:text-4xl lg:text-4xl font-catamaran mt-16 text-colorOnSurface dark:text-colorOnSurfaceDark mb-8"
 >
 	About Ashutosh
 </h1>
