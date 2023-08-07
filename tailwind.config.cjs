@@ -30,18 +30,19 @@ module.exports = {
 							code: { color: theme("colors.primary.400") },
 						},
 						h1: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurface"),
 						},
 						h2: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurface"),
 						},
 						h3: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurface"),
 						},
 						"h4,h5,h6": {
+							fontWeight: "500",
 							color: theme("colors.gray.900"),
 						},
 						pre: {
@@ -108,18 +109,19 @@ module.exports = {
 							code: { color: theme("colors.textBodyDark.400") },
 						},
 						h1: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						h2: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						h3: {
-							fontWeight: "800",
+							fontWeight: "500",
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						"h4,h5,h6": {
+							fontWeight: "500",
 							color: theme("colors.colorOnSurfaceDark"),
 						},
 						pre: {

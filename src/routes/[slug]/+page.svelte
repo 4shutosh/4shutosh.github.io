@@ -10,7 +10,7 @@
 	<title>{post.title}</title>
 </svelte:head>
 
-<h1 class="flex flex-col font-catamaran mt-16 mb-10">
+<h1 class="flex flex-col font-catamaran mt-12 mb-10">
 	<p
 		class="font-medium text-2xl md:text-4xl lg:text-4xl text-colorOnSurface dark:text-colorOnSurfaceDark"
 	>
