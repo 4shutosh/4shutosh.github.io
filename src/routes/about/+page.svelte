@@ -1,7 +1,6 @@
 <script>
 	import {
 		SITE_URL,
-		REPO_URL,
 		SITE_TITLE,
 		SITE_DESCRIPTION,
 		DEFAULT_OG_IMAGE,

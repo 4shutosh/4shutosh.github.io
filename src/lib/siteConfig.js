@@ -3,7 +3,7 @@ export const SITE_URL = 'https://www.4shutosh.com';
 export const GH_USER_REPO = '4shutosh/4shutosh.github.io'; // used for pulling github issues and offering comments
 export const REPO_URL = 'https://github.com/' + GH_USER_REPO;
 export const SITE_TITLE = '4shutosh';
-export const SITE_DESCRIPTION = "Ashutosh Singh -- Personal Website";
+export const SITE_DESCRIPTION = "Ashutosh Singh - Tech and Life";
 export const DEFAULT_OG_IMAGE =
 	'https://avatars.githubusercontent.com/u/53831987';
 export const MY_TWITTER_HANDLE = '4shutoshSingh';
