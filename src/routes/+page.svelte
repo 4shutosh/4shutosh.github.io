@@ -49,7 +49,7 @@
 		<p
 			class="text-xl lg:text-2xl md:text-2xl sm:text-xl mt-2 font-regular font-catamaran text-textBody dark:text-textBodyDark"
 		>
-			Passionately Curious -- Tech, Finance, Psychology, Sports
+		Exploring -- Tech, Finance, Psychology, Sports
 		</p>
 		<div class="flex mt-5 flex-row items-start justify-start">
 			<button
