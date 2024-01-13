@@ -6,7 +6,7 @@ backend:
     delete: Delete {{collection}} “{{slug}}”
   branch: main # Branch to update (optional; defaults to master)
 
-media_folder: content/media
+media_folder: static/img
 public_folder: /img
 
 collections:
